@@ -16,12 +16,40 @@ h2 {
 	font-size: 3em;
 }
 
+/* For width smaller than 768px: */
 #default {
+  padding-top: 250px;
+  padding-bottom: 130px;
+  background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0) no-repeat center center fixed;
+}
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body{
+    color: black;
+    background: black;
+  }
+  #default {
+    padding-top: 300px;
+    padding-bottom: 180px;
+    background: url(https://dl.dropbox.com/s/ly52q8lz2rvyi5l/mediumImage.jpg?dl=0);
+  }
+}
+/* For width 1024px and larger: */
+@media only screen and (min-device-width: 1024px) {
+   #default {
+      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
+      padding-top: 330px;
+      padding-bottom: 270px;
+      color: #dd0b0b;
+    }
+}
+
+/*#default {
   background-image: url(https://source.unsplash.com/BMYQaySauY0);
   background-size: cover;
   background-position: center;
   /*min-height: 100%;*/
-}
+}*/
 
 .content {
   position: absolute;
