@@ -33,7 +33,7 @@ h2 {
 /* For width 1024px and larger: */
 @media only screen and (min-device-width: 1024px) {
    #default {
-      background: url(https://dl.dropbox.com/s/2gw9rs7l0gk0mk1/bg.jpg?dl=0) no-repeat center center fixed;
+      background: url(https://source.unsplash.com/_yBEyYR8wps) no-repeat center center fixed;
       padding-top: 330px;
       padding-bottom: 270px;
       color: #dd0b0b;
@@ -73,25 +73,3 @@ img {
     margin-top: 10px;
 }
 
-/*img {
-  height: 200px;
-  width: 200px;
-}
-
-#about {
-  background-image: url(https://source.unsplash.com/6-XmguXtoVE);
-  background-size: cover;
-}
-
-footer {
-  background: #eee;
-  padding-top: 20px;
-}
-
-
-.container-fluid {
-  background: cover;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  margin: 20px auto;
-}
